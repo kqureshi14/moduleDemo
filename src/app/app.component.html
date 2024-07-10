@@ -1,2 +1,24 @@
-<h1>Hello to Module Demo</h1>
-<app-signup></app-signup>
+<h1>Hello today we will learn Important events</h1>
+
+<input type="text" #box1 (keyup) ="getData(box1.value)" placeholder="event keyup"/>
+
+<br>
+
+<br>
+
+<br>
+
+ <input type="text" #box2 (keydown) ="getData(box2.value)" placeholder="event keydown"/>
+ <br>
+ <br>
+
+ <input type="text" #box3 (blur) ="getData(box3.value)" placeholder="event blur"/>
+
+ <input type="text" #box4 (input) ="getData(box4.value)" placeholder="event input"/>
+
+
+ <h1 (mouseover)="getData('did you see')">CodeWith Kaleem , bring mouse here and notice</h1>
+
+
+ <h1 (mouseleave)="getData('did you leave this')">Check this mouse leave</h1>
+

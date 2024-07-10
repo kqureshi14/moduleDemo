@@ -12,4 +12,10 @@ import { SignupComponent } from './user-auth/signup/signup.component';
 })
 export class AppComponent {
   title = 'moduleDemo';
+
+
+  getData(val:string){
+    console.warn(val);
+  }
+
 }
